@@ -1,0 +1,15 @@
+
+    version: '3.8'
+    services:
+      mysql:
+        image: mysql-5.7
+        container_name: mysql-5.7
+        environment:
+          MYSQL_ROOT_PASSWORD: 'Haha&MysqL' # 替换成你自己的密码
+        ports:
+          - "3306:3306"
+        volumes:
+          - mysql_data:/var/lib/mysql # 持久化存储数据
+    volumes:
+      mysql_data:
+
