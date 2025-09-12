@@ -18,6 +18,12 @@
 
 
 
+```
+pip3 install pexpect  
+```
+
+
+
 # 2.1  pip3 install 
 
 
