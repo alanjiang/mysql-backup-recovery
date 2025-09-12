@@ -2,7 +2,7 @@
 
 
 
-   It's the lightest  mysqlsdump and backup tool .  We just need a source docker mysql as the backup database and when we need to backup the whole databases from cloud mysql instance ,just run  the db_backup.py file ans all the databases can be imported into the target docker mysql instance;
+   It's the lightest  mysql dump and backup tool .  We just need a source docker mysql as the backup database and when we need to backup the whole databases from cloud mysql instance ,just run  the db_backup.py file ans all the databases can be imported into the target docker mysql instance;
 
 
 
