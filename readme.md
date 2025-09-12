@@ -182,15 +182,25 @@ This repository is licensed under the Dify Open Source License, based on Apache 
 
 # 
 
-# About us 
+# Donation
 
 
 
-https://codinganypay.com 
+If it's helpful to you , could you buy me a cup of coffee ? 
 
 
 
-# Questions 
+![alipay](./images/alipay.jpg)
+
+
+
+![wechat](./images/wechat.jpg)
+
+
+
+  Thank your donation !  Your support will be our  passion to improve ! 
+
+# Questions & Support 
 
 
 
