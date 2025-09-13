@@ -8,5 +8,6 @@
     "dist_host": "127.0.0.1",
     "dist_port": 3306,
     "dist_user": "root",
-    "dist_password": "Haha&MysqL"
+    "dist_password": "Haha&MysqL",
+    "model": "docker"
 }

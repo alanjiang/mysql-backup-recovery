@@ -22,6 +22,7 @@ def load_config(config_file):
 def get_dump(database,confg,filestamp):
     #filestamp = time.strftime('%Y-%m-%d')
     os.makedirs(filestamp, exist_ok=True)
+    # D:/xampp/mysql/bin/mysqldump for xamp windows
     cmd = f"mysqldump -h {config['mysql_host']} -P {config['mysql_port']} -u {config['mysql_user']} -p {database}"
     print(f' cmd = {cmd}')
     backup_file = f"{filestamp}/{database}_{filestamp}.sql"
@@ -120,13 +121,12 @@ if __name__=="__main__":
     config = load_config('./config.py')
     print(f' config = {config}')
     parser.add_argument('--model', '-d', default=config['model'])
-    args = parser.parse_args()
     model = args.model
     print(f'model : {model}')
     # fetch all the databases from config file 
     databases = config['mysql_databases'].split(',')
     date = time.strftime('%Y-%m-%d')
     for database in databases:
-        get_dump(database,config,date)
+        get_dump(database,config,date,model)
     for database in databases:
        save_db(database,date,config['container_name'],config,model)
