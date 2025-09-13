@@ -18,6 +18,16 @@
 
 ## 2.1 git clone 
 
+
+
+```
+git clone https://github.com/alanjiang/mysql-backup-recovery.git
+cd mysql-backup-recovery
+
+```
+
+
+
 ## 2.2  pip3 install 
 
 ​     Because we need the script automaticly backup and import databases , so need the pexpect to avoid inputting password manually. 
@@ -96,7 +106,7 @@ docker exec -it mysql-5.7  /bin/sh
 
 
 
-![login](/Users/pengjiang/Desktop/tem/login.jpg)
+![login](./images/login.jpg)
 
 
 
