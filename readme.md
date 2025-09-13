@@ -18,13 +18,13 @@
 
 
 
+# 2.1  pip3 install 
+
+​     Because we need the script automaticly backup and import databases , so need the pexpect to avoid inputting password manually. 
+
 ```
 pip3 install pexpect  
 ```
-
-
-
-# 2.1  pip3 install 
 
 
 
@@ -34,7 +34,7 @@ pip3 install pexpect
 
 Assumed that mysql_host is the cloud prod mysql instance  and the dist_host is your local docker mysql database instance.
 
-mysql_databases:  It's all the databases in your mysql instance. 
+mysql_databases:  It's all the databases in your mysql instance. You can replace them with your own databases. 
 
 ```
 
